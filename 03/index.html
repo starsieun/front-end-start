@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <title>검색</title>
+</head>
+<body>
+<center>
+<input type="text" id="textinput" />
+<input type="button" id="search" value="검색"/>
+<div id="wrap"> </div>
+</center>
+
+<script type="text/template" id="listTemplate">
+<ul>
+  <% for(var i=0; i<list.length; i++) { %>
+  <li>
+    <p><%= list[i].title %></p>
+  </li>
+  <%} %>
+</ul>
+</script>
+<script src="souce.js"></script>
+<script src="search.js"></script>
+</body>
+</html>
