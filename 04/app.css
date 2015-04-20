@@ -1,0 +1,13 @@
+body,html { 
+ background-color: #eee; 
+  width:50%; 
+  height:50%; 
+} 
+ .box { 
+   position: absolute; 
+   top: 10px; 
+   left: 10px; 
+   width: 30px; 
+   height: 30px; 
+   background-color: red; 
+ } 
